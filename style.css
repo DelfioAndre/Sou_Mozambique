@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'passione' ;
+    src: url(PassionOne-Regular.ttf);
+}
+@font-face {
+    font-family:'sriacha' ;
+    src: url(Sriracha-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    font-family: passione;
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+header > h1 {
+    font-family: passione;
+    font-size: 12vw;
+    font-variant: small-caps;
+    text-transform: capitalize;
+
+}
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding: 50px;
+}
+header > p > a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 0px;
+    margin: 0;
+    height: 100vh;
+}
+
+section {
+
+
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+
+}
+section > p {
+    font-family: sriacha;
+    padding: 10px;
+    margin: 40px ;
+
+    
+}
+section.liso{
+    background-color: white;
+    color: rgb(51, 45, 45);
+
+}
+
+section.parede {
+    color: #fff;
+    margin-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274) inset;
+
+}
+section.parede > p{
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 10px;
+}
+section#first {
+        background: url(face2.png);
+        background-attachment: fixed;
+        background-size: cover;
+}
+#last {
+    background: url(face1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+footer {
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 10px;
+    height: 30px;
+}
+footer > p  {
+    font-weight: bolder;
+    color: white;
+}
+footer > p > a {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    margin: 20px 0px 20px 20px;
+}
+footer > p > a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+ 
+}
